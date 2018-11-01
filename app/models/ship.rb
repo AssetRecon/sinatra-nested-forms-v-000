@@ -8,4 +8,9 @@ class Ship
     @@all
   end
 
+  def self.clear
+    @@all = []
+  end
+  
+
 end
