@@ -12,7 +12,7 @@ class Ship
   end
 
   def self.all
-    @@all
+    @@shi[s]
   end
 
   def self.clear
