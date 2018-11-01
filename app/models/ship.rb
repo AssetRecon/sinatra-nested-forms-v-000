@@ -12,11 +12,11 @@ class Ship
   end
 
   def self.all
-    @@shi[ps]
+    @@ships
   end
 
   def self.clear
-    @@all.clear
+    @@ships.clear
   end
 
 
