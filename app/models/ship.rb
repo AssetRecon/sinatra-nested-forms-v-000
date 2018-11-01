@@ -4,6 +4,11 @@ class Ship
 
   @@all = []
 
+  def initialize(:name, :type, :booty)
+    @name = name
+    @type = type
+    @booty = booty
+
   def self.all
     @@all
   end

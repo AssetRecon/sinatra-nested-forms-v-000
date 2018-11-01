@@ -9,7 +9,7 @@ module FormsLab
     end
 
     post '/priates' do
-      
+
 
       erb :show
     end
