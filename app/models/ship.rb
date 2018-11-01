@@ -6,8 +6,8 @@ class Ship
 
   def initialize(args)
     @name = args[:name]
-    @type = type
-    @booty = booty
+    @type = args[:type]
+    @booty = args{:booty]
   end
 
   def self.all
