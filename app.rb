@@ -8,5 +8,11 @@ module FormsLab
       erb :new
     end
 
+    post '/priates' do
+
+
+      erb :show
+    end
+    
   end
 end
