@@ -9,11 +9,11 @@ module FormsLab
     end
 
     post '/priates' do
-      @pirate = Priate.new(params[])
+      @pirate = Priate.new(params[:pirate])
 
       erb :show
     end
-
+#
     post '/student' do
   @student = Student.new(params[:student])
 
@@ -25,6 +25,6 @@ module FormsLab
 
   erb :student
 end
-
+#
   end
 end
